@@ -7,21 +7,21 @@
 3. Write a function called percentOf() that accepts two numbers, figure out what percent the first number represents of the second number, and return the result. It should log a string like "2 is 50% of 4."
 4. Write a function called findModulus() that accepts two numbers. Within the function write a statement that returns the modulus of the first and second parameters. It should log a string like "2 is the modulus of 4 and 10."
 
-## The Rock, Paper, Scissors Game (20 points)
+## The Rock, Paper, Scissors Game
 
-Rock, paper, scissors is a classic 2 player game. Each player chooses rock, paper or scissors. The possible outcomes include:
+> Rock, paper, scissors is a classic 2 player game. Each player chooses rock, paper or scissors. The possible outcomes include:
 
 - Rock destroys scissors.
 - Scissors cut paper.
 - Paper covers rock.
 
-Our code will break the game into 3 phases:
+> Our code will break the game into 3 phases:
 
 1. User makes a choice. How will we collect the user’s choice?
 2. Computer makes a choice. How will we collect the computer’s choice?
 3. A conditional that determines who wins.
 
-You will be responsible for figuring out some of the logic. These next steps will attempt to guide you down the right path:
+> You will be responsible for figuring out some of the logic. These next steps will attempt to guide you down the right path:
 
 1. Begin by prompting the user for their choice.
 2. Create the computer’s choice. This will be generated similarly to the coin flip that you did in the last assignment. Remember though, rather than 2 options, there will be 3 here.
@@ -32,7 +32,7 @@ You will be responsible for figuring out some of the logic. These next steps wil
 
 ## The Basic Calculator (25 points)
 
-In this part of the assignment you will build a simple calculator using the skills you’ve acquired in regards to functions and modules. You will ask the user for a number, a second number, and then finally ask them what kind of operation they want to perform, either add, subtract, multiply, or divide. Depending on what they select, you will perform that operation. To complete this part of the assignment follow the steps outlined here:
+> In this part of the assignment you will build a simple calculator using the skills you’ve acquired in regards to functions and modules. You will ask the user for a number, a second number, and then finally ask them what kind of operation they want to perform, either add, subtract, multiply, or divide. Depending on what they select, you will perform that operation. To complete this part of the assignment follow the steps outlined here:
 
 1. Create a module that abstracts away the main calculation logic of your application. This module will have a private function called calculate and expose four different functions (add, subtract, multiply, and divide). The shell of this module with some basic instruction has already been outlined for you.
 2. In the main script, prompt the user for a number and store that in a variable. Convert that to a number.
