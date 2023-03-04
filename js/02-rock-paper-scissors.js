@@ -11,7 +11,7 @@ const computerChoice = () => {
 };
 
 const getChoice = () => {
-  let choice = String(prompt('Choose r, p, s(Rock, Papper, Scissors)')).toLowerCase();
+  let choice = String(prompt('Enter "r", "p", "s" (Rock, Papper, Scissors... shoot!)')).toLowerCase();
   if (choice === 'r') {
     choice = 'Rock';
   } else if (choice === 'p') {
