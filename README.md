@@ -30,7 +30,7 @@
 5. What if the result ends in a tie? Figure out how to handle that as well.
 6. What if the user enters something other than rock, paper, or scissors into the prompt? Figure out how to handle that as well.
 
-## The Basic Calculator (25 points)
+## The Basic Calculator
 
 > In this part of the assignment you will build a simple calculator using the skills you’ve acquired in regards to functions and modules. You will ask the user for a number, a second number, and then finally ask them what kind of operation they want to perform, either add, subtract, multiply, or divide. Depending on what they select, you will perform that operation. To complete this part of the assignment follow the steps outlined here:
 
